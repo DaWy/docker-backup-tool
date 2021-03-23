@@ -47,15 +47,15 @@ Principal options:
 
 If we want to backup more than one container at once, we can issue all the containers separated by semicolon (,)
 
-* `./docker.backup.py -c [CONTAINER_LIST]`
+* `./docker.backup.py -b -c [CONTAINER_LIST]`
 
 Example:
 
-* `./docker-backup.py -c glpi phpmyadmin`
+* `./docker-backup.py -b -c glpi phpmyadmin`
 
 We can set the destination folder (of the backup) with the -d parameter. Example, backing up containers to /backup folder:
 
-* `./docker-backup.py -c glpi -d /backups`
+* `./docker-backup.py -b -c glpi -d /backups`
 
 ### Old backups clean
 

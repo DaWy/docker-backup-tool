@@ -21,6 +21,10 @@ It could be compatible with WSL2 (windows subsystem for Linux) but has not been 
 
 `git clone https://github.com/DaWy/docker-backup-tool`
 
+2. Install docker python package
+
+`pip3 install docker`
+
 2. (Optional) If you want to make the docker-backup command systemwide, do this:
 
 `sudo ln -s docker-backup-tool/docker-backup.py /usr/bin/docker-backup`

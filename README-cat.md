@@ -18,7 +18,11 @@ Aquesta eina realitza backups dels contenidors de Docker + els volumns que el co
 
 `git clone https://github.com/DaWy/docker-backup-tool`
 
-2. (Opcional) Si volem que la comanda docker-backup estigui disponible system-wide, executem el següent:
+2. Instalem paquet docker
+
+`pip3 install docker`
+
+3. (Opcional) Si volem que la comanda docker-backup estigui disponible system-wide, executem el següent:
 
 `sudo ln -s <DIRETORI_DEL_PROJETE_CLONAT>/docker-backup.py /usr/bin/docker-backup`
 
